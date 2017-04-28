@@ -1,0 +1,32 @@
+body.leaf_bg{
+  background:#76b852;
+  background:-webkit-linear-gradient(to right, #76b852, #8dc26f);
+  background:linear-gradient(to right, #4cb8c4, #3cd3ad);
+  font-family:'Roboto', sans-serif;
+}
+
+div.checkbox{
+}
+
+input{
+}
+
+input.checkbox-input{
+  height:20px;
+  width:20px;
+}
+
+div.btn-group{
+}
+
+span.glyphicon.glyphicon-ok{
+  opacity:0;
+}
+
+.btn.active span.glyphicon.glyphicon-ok{
+  opacity:1;
+}
+
+h1 ,h2{
+  color: white
+}

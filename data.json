@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Pick an animal",
+        "category": "Animals",
+        "category_id": 1,
+        "answers": [
+            {
+                "image": "assets/img/enhanced-buzz-768-1413466971-1.jpg",
+                "label": "Trustworthy and steadfast"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-768-1413466971-1.jpg",
+                "label": "Choice 2"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-768-1413466971-1.jpg",
+                "label": "Choice 3"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-768-1413466971-1.jpg",
+                "label": "Choice 4"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-768-1413466971-1.jpg",
+                "label": "Choice 5"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-768-1413466971-1.jpg",
+                "label": "Choice 5"
+            }
+        ],
+        "correct_answer": "Choice 1",
+        "type": "image"
+    },
+    {
+        "name": "What is your ideal weekend activity?",
+        "category": "Activities",
+        "category_id": 1,
+        "answers": [
+            {
+                "image": "assets/img/enhanced-buzz-768-1413466971-1.jpg",
+                "label": "Choice 1"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-768-1413466971-1.jpg",
+                "label": "Choice 2"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-768-1413466971-1.jpg",
+                "label": "Choice 3"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-768-1413466971-1.jpg",
+                "label": "Choice 4"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-768-1413466971-1.jpg",
+                "label": "Choice 5"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-768-1413466971-1.jpg",
+                "label": "Choice 5"
+            }
+        ],
+        "correct_answer": "Choice 1",
+        "type": "image"
+    },
+    {
+        "name": "People would describe you as...",
+        "category": "Travel",
+        "category_id": 1,
+        "answers": [
+            {
+                "label": "Trustworthy and steadfast"
+            },
+            {
+                "label": "Spontaneous and easy going"
+            },
+            {
+                "label": "Tough and stoic"
+            },
+            {
+                "label": "Tough and stoic"
+            },
+            {
+                "label": "Tough and stoic"
+            },
+            {
+                "label": "Bubbly and energetic"
+            }
+        ],
+        "correct_answer": "Choice 1",
+        "type": "multiple"
+    },
+    {
+        "name": "Favorite Color",
+        "category": "Colors",
+        "category_id": 1,
+        "answers": [
+            {
+                "image": "assets/img/enhanced-buzz-19570-1414164444-21 (1).jpg",
+                "label": "Trustworthy and steadfast"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-8888-1414165086-13.jpg",
+                "label": "Choice 2"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-8791-1414164614-19.jpg",
+                "label": "Choice 3"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-6884-1414165128-0.jpg",
+                "label": "Choice 4"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-8791-1414164614-19.jpg",
+                "label": "Choice 5"
+            },
+            {
+                "image": "assets/img/enhanced-buzz-1186-1414165165-7.jpg",
+                "label": "Choice 5"
+            }
+        ],
+        "correct_answer": "Choice 1",
+        "type": "colors"
+    }
+]

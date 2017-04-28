@@ -1,0 +1,27 @@
+<div class="container animated slideInDown">
+    <h1 class="text-center ">{{q.name}} </h1>
+    <h2 class="text-center">{{q.category}} </h2>
+</div>
+
+<div class="animated slideInRight">
+
+    <div class="container text-center">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" ng-repeat="r in  q.answers">
+            <div class="thumbnail">
+
+                <img ng-if="r.image" ng-src="{{r.image}}" width="150" class="img-circle">
+                <h4 ng-if="!r.image">{{r.label}}</h4>
+                <div class="caption">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-default active" ng-click="next()">
+				<input  ng-model="checkbox" type="checkbox" name="checkbox[]" autocomplete="off" >
+				<span class="glyphicon glyphicon-ok"></span>
+			</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
