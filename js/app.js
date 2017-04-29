@@ -7,7 +7,7 @@
     app.config(function ($routeProvider) {
         $routeProvider
             .when("/", {
-                templateUrl: "templates/home.html",
+                templateUrl: "templates/start.html",
                 controller: "MainController"
             })
             .when("/question/:id", {
@@ -16,7 +16,7 @@
             })
             .when("/summary", {
                 templateUrl: "templates/summary.html",
-                controller: "summary"
+                controller: "SummaryController"
             })
 
     });
@@ -29,10 +29,13 @@
     });
 
 
-    app.controller('MainController', function ($rootScope) {
+    app.controller('MainController', function ($rootScope,$scope,$location) {
         console.log("MainController")
 
         console.log($rootScope.questions)
+        $scope.start = function () {
+            $location.path("/question/1")
+        }
 
 
     });
@@ -56,6 +59,9 @@
             }
 
         }
+    });
+    app.controller('SummaryController', function ($rootScope, $scope, $http, $routeParams, $location) {
+
     });
 
 }());

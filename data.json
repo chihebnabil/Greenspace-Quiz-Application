@@ -29,7 +29,6 @@
                 "label": "Choice 5"
             }
         ],
-        "correct_answer": "Choice 1",
         "type": "image"
     },
     {
@@ -62,7 +61,6 @@
                 "label": "Choice 5"
             }
         ],
-        "correct_answer": "Choice 1",
         "type": "image"
     },
     {
@@ -89,7 +87,6 @@
                 "label": "Bubbly and energetic"
             }
         ],
-        "correct_answer": "Choice 1",
         "type": "multiple"
     },
     {
@@ -122,7 +119,6 @@
                 "label": "Choice 5"
             }
         ],
-        "correct_answer": "Choice 1",
         "type": "colors"
     }
 ]
