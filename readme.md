@@ -1,4 +1,4 @@
-Greenspace Quiz Application
+Greenpeace Quiz Application
 ==
 This Application Generate Automaticly Quiz from data.json file
 
